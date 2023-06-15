@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(240, 222, 200);
+}
+.cars {
+    margin: 25px;
+    display: flex;
+}
+.car {
+    text-align: center;
+    .car__name {
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .car__year {
+        margin: 10px 0 5px 0;
+        font-size: 15px;
+    }
+    .car__eng {
+        font-size: 15px;
+    }
+}
+img {
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    img::last-child(3) {
+        margin-right: 0;
+
+    }
+}
